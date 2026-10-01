@@ -23,3 +23,17 @@ agregar esa captura aquí.
 | [`coherencia.txt`](coherencia.txt) | `npm run verificar`: modelo, contrato, datos de ejemplo y formularios sin diferencias. | §5 y §9 Coherencia |
 | [`modelo-postgresql.txt`](modelo-postgresql.txt) | `npm run probar:modelo`: el DDL aplicado en PostgreSQL 17 y 44 comprobaciones de sus restricciones. | §5 Modelo de datos |
 | [`readme-seguido.txt`](readme-seguido.txt) | Los pasos del README seguidos al pie de la letra en un clon limpio. | §9 Lista de verificación |
+
+## Evidencias sobre lo publicado (30 de septiembre de 2026, 10:35 p. m.)
+
+Tomadas después de integrar los seis pull requests y activar GitHub Pages.
+
+| Archivo | Qué muestra | Requisito |
+|---|---|---|
+| [`pages-publicado.png`](pages-publicado.png) | La cartelera abierta desde otro equipo, a 360 px, en <https://sneyderuva.github.io/apparchar/>. | §2.2 Publicado en línea |
+| [`actions-pages.png`](actions-pages.png) | La acción «Publicar prototipo en GitHub Pages» terminada en verde. | §2.2 Publicado en línea |
+| [`lighthouse-publicado-movil.png`](lighthouse-publicado-movil.png) | Lighthouse 12.8 sobre la URL publicada, móvil: Accesibilidad 100. | §2.2 Accesibilidad medida |
+| [`lighthouse-publicado-escritorio.png`](lighthouse-publicado-escritorio.png) | Lighthouse 12.8 sobre la URL publicada, escritorio: Accesibilidad 100. Detalle, publicar y la puerta también dieron 100. | §2.2 Accesibilidad medida |
+| [`ramas.png`](ramas.png) | Las seis ramas por funcionalidad, cada una con su pull request y la revisión automática en verde. | §3.2 Reglas del repositorio |
+| [`prs-integrados.png`](prs-integrados.png) | Los seis pull requests integrados, en orden. | §3.2 Reglas del repositorio |
+| [`repo-estructura.png`](repo-estructura.png) | La página principal del repositorio con la estructura exigida. | §3 Estructura |
