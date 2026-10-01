@@ -3,7 +3,8 @@
 Plataforma web para que organizadores de eventos de Casanare vendan boletas con
 código QR y controlen el aforo en la puerta.
 
-**Prototipo publicado:** _(pegar aquí la URL de GitHub Pages, `https://<usuario>.github.io/<repositorio>/`, en cuanto la acción «Publicar prototipo en GitHub Pages» termine; ver [Publicación](#publicación))_
+**Prototipo publicado:** <https://sneyderuva.github.io/apparchar/>
+**Plataforma en producción (primera versión):** <https://apparchar.sbs>
 **Contrato de la API:** [`api/openapi.yaml`](api/openapi.yaml) · **Modelo de datos:** [`docs/modelo-datos.md`](docs/modelo-datos.md) · **Versión:** 0.2.0 (Entrega 2)
 
 ## El problema
@@ -17,15 +18,19 @@ saben cuántas quedan ni pueden detectar en la puerta una boleta falsa o repetid
 | Dato | Valor |
 |---|---|
 | Curso | Tecnologías Web 2026-B · Ingeniería de Sistemas · Unitrópico |
-| Ruta de profundización | _(por completar)_ |
-| Equipo | _(número por completar)_ |
-| Grupo | _(por completar)_ |
+| Ruta de profundización | Electiva de profundización en Desarrollo Web (Tecnologías Web) |
+| Equipo | Grupo 3 · «Los insanos» |
+| Grupo del curso | G2 |
+| Profesor | Juan Carlos Fonseca |
 
 | Integrante | Rol | Usuario de GitHub |
 |---|---|---|
-| _(nombre completo)_ | _(rol)_ | _(@usuario)_ |
-| _(nombre completo)_ | _(rol)_ | _(@usuario)_ |
-| _(nombre completo)_ | _(rol)_ | _(@usuario)_ |
+| Freddy Sneyder Cedeño Uva | Integrante · repositorio, integración y revisión humana | [@sneyderuva](https://github.com/sneyderuva) |
+| Elver Riaño Díaz | Integrante | — |
+| Javier Alberto Gómez Wilches | Integrante | — |
+| Juan David Rivera Goyeneche | Integrante | — |
+
+La sustentación la presenta cualquiera de los integrantes; todos responden por el contenido.
 
 ## Qué hay en este repositorio
 
@@ -190,4 +195,18 @@ veces el mismo código muestra el rechazo por doble ingreso.
 |---|---|---|
 | Claude (Anthropic), mediante Claude Code | Analizar el código de la primera versión de Apparchar; redactar el modelo de datos, el DDL y sus pruebas; escribir el contrato OpenAPI; construir el prototipo (HTML, CSS y JavaScript); generar los datos de ejemplo, el diagrama y los wireframes; escribir el verificador de coherencia, este README y las decisiones; correr Lighthouse, axe-core, Redocly, Spectral, Prism y las pruebas del DDL en PostgreSQL 17, y corregir lo que encontraron. | Borradores y verificaciones automáticas. Las decisiones de producto, la revisión de cada archivo y la sustentación son del equipo. |
 
-Revisión humana: _(por completar: quién revisó qué parte y qué cambió)_.
+Declaración: los integrantes del equipo «Los insanos» declaran de manera libre y
+transparente que usaron una herramienta de inteligencia artificial generativa
+(Claude, de Anthropic) como apoyo académico y técnico, en continuidad con la
+declaración del anteproyecto. La idea del proyecto, el contexto regional, las
+decisiones de producto y la validación final del contenido son responsabilidad
+del equipo.
+
+Revisión humana: **Freddy Sneyder Cedeño Uva** revisó la totalidad de lo
+producido con apoyo de la IA antes de integrarlo (prototipo, contrato OpenAPI,
+modelo de datos y su traducción desde NoSQL, decisiones, README y evidencias) y
+ajustó varios puntos: el alcance frente a la plataforma que ya opera en
+apparchar.sbs, los datos de ejemplo del caso regional de Casanare, la redacción
+y el tono de la documentación, y la forma de presentar las evidencias y las
+salvedades del repositorio. Lo que no coincidía con la realidad del proyecto se
+corrigió o se retiró.
