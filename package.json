@@ -1,0 +1,26 @@
+{
+  "name": "apparchar",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Boletería digital con QR para organizadores de eventos de Casanare: prototipo web, contrato de API y modelo de datos (Entrega 2).",
+  "license": "UNLICENSED",
+  "scripts": {
+    "web": "serve web --config ../serve.json --listen 8080",
+    "mock": "prism mock api/openapi.yaml --port 4010",
+    "validar:api": "redocly lint api/openapi.yaml",
+    "verificar": "node scripts/verificar-coherencia.mjs",
+    "probar:modelo": "bash scripts/probar-modelo.sh",
+    "revisar": "npm run validar:api && npm run verificar"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "devDependencies": {
+    "@redocly/cli": "2.57.0",
+    "@stoplight/prism-cli": "5.14.2",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "js-yaml": "4.3.2",
+    "serve": "14.2.6"
+  }
+}
